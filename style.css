@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/17/10/55/hot-air-balloon-2411851__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+label{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f2937; 
+}
+
+select{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color: blueviolet;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 2-px;
+}
+
+.favourites{
+    background-color: rgb(193, 250, 101);
+    text-align: center;
+    width: 500px;
+    height: 110px;
+    border-radius: 30px;
+    border: 4px solid blue;
+}
+​
+#color{
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-right: 500px;
+}
+#cartoon{
+    margin-left: 850px;
+    margin-top: -107px;
+}
+#sport{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+#subject{
+    margin-left: 850px;
+    margin-top: -107px;
+}
